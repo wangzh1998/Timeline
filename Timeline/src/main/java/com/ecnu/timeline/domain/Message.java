@@ -21,6 +21,15 @@ public class Message {
 
     public Message(){}
 
+    public Message(Integer id,String name, String content, long time, String str_time, String image) {
+        this.id = id;
+        this.name = name;
+        this.content = content;
+        this.time = time;
+        this.str_time = str_time;
+        this.image = image;
+    }
+
     public Integer getId() {
         return id;
     }
